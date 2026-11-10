@@ -1,0 +1,2873 @@
+<!doctype html>
+<html lang="zh-Hant">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#ffffff" />
+    <title>一大室內設計｜讓理想生活，在空間裡成為日常</title>
+    <meta
+      name="description"
+      content="一大室內設計提供初步溝通、現場丈量、初步提案、簽約、工程執行與完工驗收六階段服務。初步提案提供完整 3D 圖面與報價細項，工程執行透過 Notion 同步工程進度。"
+    />
+    <meta name="robots" content="index, follow, max-image-preview:large" />
+    <meta property="og:type" content="website" />
+    <meta property="og:locale" content="zh_TW" />
+    <meta property="og:site_name" content="一大室內設計" />
+    <meta property="og:title" content="一大室內設計｜讓空間，回到生活。" />
+    <meta
+      property="og:description"
+      content="初步提案看得到完整 3D 圖面與報價細項，工程執行透過 Notion 同步工程進度。從提案到完工，讓設計、預算與施工進度更清楚。"
+    />
+    <meta
+      property="og:image"
+      content="https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?auto=format&amp;fit=crop&amp;w=1200&amp;h=630&amp;q=85"
+    />
+    <meta
+      property="og:image:alt"
+      content="木質牆面與開放樓梯構成的現代住宅空間"
+    />
+    <meta name="twitter:card" content="summary_large_image" />
+    <!-- 上線前填入正式網址：canonical、og:url 及 JSON-LD 的 url。請勿保留假網址。 -->
+    <link
+      rel="icon"
+      type="image/png"
+      href="assets/yida-logo.png"
+    />
+    <link rel="preconnect" href="https://images.unsplash.com" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700&amp;family=Noto+Sans+TC:wght@300;400;500;600&amp;display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="preload"
+      as="image"
+      href="https://i.postimg.cc/Vk3sGVd3/Chat-GPT-Image-2026nian5yue27ri-shang-wu11-40-12.png"
+      fetchpriority="high"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "WebSite",
+        "name": "一大室內設計",
+        "inLanguage": "zh-Hant",
+        "description": "一大室內設計形象網站，呈現住宅與商業空間概念作品及六階段服務流程。初步提案提供完整 3D 圖面與報價細項，工程執行以 Notion 同步進度。"
+      }
+    </script>
+    <style>
+      :root {
+        --paper: #ffffff;
+        --ink: #202020;
+        --muted: #6b6b6b;
+        --line: #dddddd;
+        --accent: #c51d2b;
+        --surface: #f3f3f3;
+        --header: 90px;
+      }
+      *,
+      *::before,
+      *::after {
+        box-sizing: border-box;
+      }
+      html {
+        scroll-behavior: smooth;
+        scroll-padding-top: calc(var(--header) + 24px);
+      }
+      body {
+        margin: 0;
+        background: var(--paper);
+        color: var(--ink);
+        font-family: Manrope, "Noto Sans TC", sans-serif;
+        font-weight: 400;
+        -webkit-font-smoothing: antialiased;
+      }
+      body.locked {
+        overflow: hidden;
+      }
+      button,
+      input,
+      textarea {
+        font: inherit;
+      }
+      button,
+      a,
+      input,
+      textarea {
+        -webkit-tap-highlight-color: transparent;
+      }
+      button {
+        cursor: pointer;
+        color: inherit;
+      }
+      a {
+        color: inherit;
+        text-decoration: none;
+      }
+      img {
+        display: block;
+        max-width: 100%;
+        object-fit: cover;
+      }
+      ::selection {
+        background: #e6e6e6;
+        color: #111111;
+      }
+      :focus-visible {
+        outline: 2px solid var(--accent);
+        outline-offset: 5px;
+      }
+      .skip {
+        position: fixed;
+        top: -100px;
+        left: 16px;
+        z-index: 100;
+        padding: 12px 20px;
+        background: var(--ink);
+        color: white;
+      }
+      .skip:focus {
+        top: 12px;
+      }
+      .wrap {
+        width: min(1320px, calc(100% - 112px));
+        margin-inline: auto;
+      }
+      .section {
+        padding-block: 112px;
+      }
+      .eyebrow {
+        font-size: 10px;
+        letter-spacing: 0.22em;
+        font-weight: 600;
+        line-height: 1.8;
+        text-transform: uppercase;
+      }
+      .muted {
+        color: var(--muted);
+      }
+      .section-title {
+        font-size: clamp(28px, 2.6vw, 40px);
+        line-height: 1.65;
+        letter-spacing: 0.1em;
+        font-weight: 400;
+      }
+      .arrow {
+        display: inline-block;
+        transition: transform 0.25s;
+      }
+      .text-link:hover .arrow {
+        transform: translate(3px, -3px);
+      }
+      .header {
+        height: var(--header);
+        position: fixed;
+        inset: 0 0 auto;
+        z-index: 40;
+        background: rgba(255, 255, 255, 0.98);
+        border-bottom: 1px solid var(--line);
+      }
+      .brand {
+        display: inline-flex;
+        align-items: center;
+        gap: 13px;
+        flex-shrink: 0;
+      }
+      .brand-mark {
+        position: relative;
+        display: block;
+        width: 64px;
+        height: auto;
+        aspect-ratio: 5 / 4;
+        overflow: hidden;
+        flex-shrink: 0;
+      }
+      .brand-mark img {
+        position: absolute;
+        width: 307.2%;
+        max-width: none;
+        height: auto;
+        left: -104%;
+        top: -48.75%;
+      }
+      .brand-name {
+        display: block;
+        white-space: nowrap;
+        font-size: 21px;
+        letter-spacing: 0.12em;
+        line-height: 1.1;
+        font-weight: 500;
+      }
+      .brand-sub {
+        white-space: nowrap;
+        font-size: 9px;
+        letter-spacing: 0.21em;
+        display: block;
+        margin-top: 8px;
+        color: #6b6b6b;
+      }
+      .desktop-nav {
+        display: flex;
+        align-items: center;
+      }
+      .nav-link {
+        position: relative;
+        padding: 12px 22px;
+        font-size: 12px;
+        letter-spacing: 0.12em;
+        white-space: nowrap;
+        transition: color 0.2s;
+      }
+      .nav-link + .nav-link::before {
+        content: "|";
+        position: absolute;
+        left: 0;
+        top: 50%;
+        transform: translateY(-50%);
+        color: #c7c7c7;
+        font-size: 12px;
+        font-weight: 300;
+      }
+      .nav-link:last-child {
+        padding-right: 0;
+      }
+      .nav-link::after {
+        content: "";
+        position: absolute;
+        height: 1px;
+        background: var(--accent);
+        left: 22px;
+        right: 22px;
+        bottom: 3px;
+        transform: scaleX(0);
+        transform-origin: left;
+        transition: transform 0.25s;
+      }
+      .nav-link:last-child::after {
+        right: 0;
+      }
+      .nav-link:hover,
+      .nav-link[aria-current] {
+        color: var(--accent);
+      }
+      .nav-link:hover::after,
+      .nav-link[aria-current]::after {
+        transform: scaleX(1);
+      }
+      .menu-toggle {
+        width: 44px;
+        height: 44px;
+        background: none;
+        border: 0;
+        display: none;
+        align-items: center;
+        justify-content: center;
+      }
+      .mobile-nav {
+        display: none;
+      }
+      .hero {
+        position: relative;
+        margin-top: var(--header);
+        min-height: 620px;
+        height: calc(100svh - var(--header));
+        max-height: 1000px;
+        color: white;
+        isolation: isolate;
+        overflow: hidden;
+        background: #6b6b6b;
+      }
+      .hero > img {
+        position: absolute;
+        inset: 0;
+        width: 100%;
+        height: 100%;
+        z-index: -2;
+        object-position: 50% 56%;
+      }
+      .hero::after {
+        content: "";
+        position: absolute;
+        inset: 0;
+        z-index: -1;
+        background:
+          linear-gradient(90deg, rgba(0, 0, 0, 0.48), rgba(0, 0, 0, 0.04) 80%),
+          linear-gradient(0deg, rgba(0, 0, 0, 0.4), transparent 75%);
+      }
+      .hero-content {
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        align-items: flex-start;
+        padding-block: 75px 132px;
+      }
+      .hero-content .eyebrow {
+        display: flex;
+        align-items: center;
+        gap: 14px;
+      }
+      .hero-content .eyebrow::before {
+        content: "";
+        width: 30px;
+        height: 2px;
+        background: #df2736;
+        flex-shrink: 0;
+      }
+      .hero h1 {
+        font-size: clamp(42px, 4.4vw, 66px);
+        line-height: 1.5;
+        font-weight: 300;
+        letter-spacing: 0.1em;
+        margin: 22px 0 18px;
+      }
+      .hero-description {
+        font-size: 13px;
+        line-height: 2.15;
+        letter-spacing: 0.09em;
+        color: #f5f5f5;
+        max-width: 450px;
+      }
+      .hero-button {
+        display: inline-flex;
+        gap: 50px;
+        align-items: center;
+        justify-content: space-between;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.8);
+        padding: 0 0 12px;
+        width: max-content;
+        font-size: 12px;
+        letter-spacing: 0.12em;
+        transition: color 0.25s;
+      }
+      .hero-button:hover {
+        color: #e0e0e0;
+      }
+      .hero-bottom {
+        position: absolute;
+        bottom: 30px;
+        inset-inline: 0;
+        display: flex;
+        align-items: end;
+        justify-content: space-between;
+      }
+      .scroll-line {
+        width: 1px;
+        height: 32px;
+        background: rgba(255, 255, 255, 0.55);
+        display: inline-block;
+        margin-right: 12px;
+      }
+      .hero-index {
+        display: flex;
+        gap: 18px;
+        align-items: center;
+        font-size: 10px;
+        letter-spacing: 0.14em;
+      }
+      .hero-index span {
+        width: 65px;
+        height: 1px;
+        background: rgba(255, 255, 255, 0.5);
+      }
+      .section-head {
+        display: flex;
+        justify-content: space-between;
+        align-items: end;
+        gap: 32px;
+        margin-bottom: 42px;
+      }
+      .section-head .eyebrow,
+      .about-copy > .eyebrow {
+        color: var(--accent);
+      }
+      .about-grid {
+        display: grid;
+        grid-template-columns: 1.08fr 1fr;
+        gap: clamp(48px, 7vw, 110px);
+        align-items: center;
+      }
+      .about-image {
+        aspect-ratio: 5 / 5.6;
+        position: relative;
+        background: var(--surface);
+      }
+      .about-image img {
+        width: 100%;
+        height: 100%;
+      }
+      .about-caption {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        background: var(--paper);
+        padding: 18px 26px 0 0;
+        font-size: 9px;
+        letter-spacing: 0.2em;
+      }
+      .about-copy p {
+        font-size: 14px;
+        line-height: 2.3;
+        letter-spacing: 0.04em;
+        color: var(--muted);
+      }
+      .about-copy > .eyebrow {
+        font-size: 10px;
+      }
+      .about-values {
+        display: flex;
+        gap: 30px;
+        border-top: 1px solid var(--line);
+        padding-top: 25px;
+        margin-top: 32px;
+        font-size: 11px;
+        letter-spacing: 0.14em;
+      }
+      .about-copy .text-link {
+        color: var(--accent);
+        border-bottom: 1px solid #bdbdbd;
+        padding-bottom: 12px;
+      }
+      .process {
+        background: var(--surface);
+      }
+      .steps {
+        display: grid;
+        grid-template-columns: repeat(6, minmax(0, 1fr));
+        gap: 24px;
+        margin-top: 48px;
+      }
+      .step {
+        border-top: 1px solid #bdbdbd;
+        padding: 25px 14px 0 0;
+        position: relative;
+      }
+      .step::before {
+        content: "";
+        width: 5px;
+        height: 5px;
+        background: var(--accent);
+        position: absolute;
+        top: -3px;
+        left: 0;
+      }
+      .step-number {
+        font-size: 42px;
+        line-height: 1.2;
+        font-weight: 400;
+        color: #888888;
+      }
+      .step h3 {
+        font-size: 18px;
+        font-weight: 500;
+        letter-spacing: 0.12em;
+        margin: 28px 0 8px;
+      }
+      .step-en {
+        font-size: 9px;
+        letter-spacing: 0.14em;
+      }
+      .step p {
+        font-size: 13px;
+        color: #656565;
+        line-height: 2.1;
+        margin-top: 20px;
+      }
+      .filters {
+        display: flex;
+        gap: 26px;
+        flex-wrap: wrap;
+      }
+      .filter {
+        padding: 9px 0;
+        border: 0;
+        border-bottom: 1px solid transparent;
+        background: none;
+        font-size: 12px;
+        color: var(--muted);
+        transition: color 0.2s;
+      }
+      .filter[aria-pressed="true"] {
+        color: var(--accent);
+        border-color: var(--accent);
+      }
+      .works-grid {
+        display: grid;
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 46px 32px;
+      }
+      .work-card[hidden] {
+        display: none;
+      }
+      .work-button {
+        display: block;
+        width: 100%;
+        border: 0;
+        padding: 0;
+        background: none;
+        text-align: left;
+      }
+      .image-box {
+        overflow: hidden;
+        position: relative;
+        background: #dcdcdc;
+        aspect-ratio: 16 / 11;
+      }
+      .image-box img {
+        width: 100%;
+        height: 100%;
+        transition: transform 0.7s cubic-bezier(0.2, 0.65, 0.3, 1);
+      }
+      .work-button:hover img,
+      .work-button:focus-visible img {
+        transform: scale(1.035);
+      }
+      .image-corner {
+        position: absolute;
+        right: 20px;
+        bottom: 20px;
+        width: 42px;
+        height: 42px;
+        color: var(--accent);
+        background: rgba(255, 255, 255, 0.94);
+        display: grid;
+        place-items: center;
+        opacity: 0;
+        transform: translateY(6px);
+        transition: 0.25s;
+      }
+      .work-button:hover .image-corner,
+      .work-button:focus-visible .image-corner {
+        opacity: 1;
+        transform: none;
+      }
+      .work-meta {
+        padding-top: 20px;
+        display: flex;
+        justify-content: space-between;
+        gap: 12px;
+      }
+      .work-title {
+        font-size: 18px;
+        letter-spacing: 0.08em;
+        font-weight: 400;
+      }
+      .work-type {
+        font-size: 9px;
+        letter-spacing: 0.16em;
+        margin-top: 9px;
+        color: var(--muted);
+      }
+      .work-number {
+        font-size: 10px;
+        color: var(--accent);
+        padding-top: 5px;
+      }
+      .contact {
+        background: #181818;
+        color: #ffffff;
+      }
+      .contact-grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 100px;
+      }
+      .contact .muted {
+        color: #bdbdbd;
+      }
+      .contact-title {
+        font-size: clamp(32px, 3.4vw, 50px);
+        line-height: 1.65;
+        letter-spacing: 0.07em;
+        font-weight: 300;
+      }
+      .contact-info {
+        display: grid;
+        grid-template-columns: 80px 1fr;
+        gap: 18px;
+        font-size: 12px;
+        line-height: 1.8;
+        margin-top: 40px;
+      }
+      .contact-info dt {
+        color: #bdbdbd;
+        font-size: 9px;
+        letter-spacing: 0.15em;
+      }
+      .contact-info dd {
+        margin: 0;
+        overflow-wrap: anywhere;
+      }
+      .field-label {
+        display: block;
+        font-size: 12px;
+        letter-spacing: 0.08em;
+        margin-bottom: 12px;
+      }
+      .field {
+        display: block;
+        width: 100%;
+        background: transparent;
+        border: 0;
+        border-bottom: 1px solid #7d7d7d;
+        border-radius: 0;
+        color: #ffffff;
+        padding: 4px 0 14px;
+        font-size: 14px;
+        line-height: 1.8;
+        transition: border-color 0.2s;
+      }
+      .field::placeholder {
+        color: #a3a3a3;
+        font-size: 12px;
+      }
+      .field:focus {
+        outline: 0;
+        border-color: #e33b48;
+      }
+      .field:focus-visible {
+        outline: 1px solid #cccccc;
+        outline-offset: 5px;
+      }
+      .form-row {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 28px;
+      }
+      .submit {
+        border: 1px solid #c51d2b;
+        background: var(--accent);
+        color: white;
+        padding: 17px 22px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 40px;
+        font-size: 12px;
+        letter-spacing: 0.1em;
+        transition: background 0.2s;
+      }
+      .submit:hover {
+        background: #a81723;
+      }
+      .submit:disabled {
+        cursor: default;
+        opacity: 0.65;
+      }
+      .contact-note {
+        font-size: 11px;
+        line-height: 1.9;
+        color: #bdbdbd;
+      }
+      .privacy-check {
+        display: flex;
+        gap: 10px;
+        align-items: start;
+        cursor: pointer;
+        font-size: 11px;
+        line-height: 1.9;
+        color: #d4d4d4;
+      }
+      .privacy-check input {
+        accent-color: #c51d2b;
+        width: 16px;
+        height: 16px;
+        flex-shrink: 0;
+        margin-top: 3px;
+      }
+      footer {
+        background: #181818;
+        color: #bbbbbb;
+        border-top: 1px solid #484848;
+        padding-block: 28px;
+        font-size: 10px;
+        letter-spacing: 0.06em;
+      }
+      .footer-content {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 20px;
+        flex-wrap: wrap;
+      }
+      dialog {
+        border: 0;
+        padding: 0;
+        background: var(--paper);
+        color: var(--ink);
+        width: min(860px, calc(100% - 32px));
+        max-height: 90svh;
+        overflow: auto;
+      }
+      dialog::backdrop {
+        background: rgba(0, 0, 0, 0.76);
+      }
+      .dialog-inner {
+        padding: 36px;
+      }
+      .dialog-close {
+        position: absolute;
+        top: 14px;
+        right: 14px;
+        width: 42px;
+        height: 42px;
+        border: 1px solid var(--line);
+        background: var(--paper);
+        font-size: 22px;
+        z-index: 1;
+      }
+      .dialog-image {
+        width: 100%;
+        aspect-ratio: 16 / 10;
+        object-fit: cover;
+      }
+      .dialog-title {
+        font-size: 26px;
+        letter-spacing: 0.06em;
+        font-weight: 400;
+        line-height: 1.5;
+      }
+      .dialog-description {
+        font-size: 14px;
+        line-height: 2;
+        color: var(--muted);
+      }
+      .dialog-action {
+        background: var(--accent);
+        color: white;
+        border: 1px solid var(--accent);
+        padding: 14px 20px;
+        font-size: 12px;
+      }
+      .draft {
+        white-space: pre-wrap;
+        overflow-wrap: anywhere;
+        font:
+          13px/2 Manrope,
+          "Noto Sans TC",
+          sans-serif;
+        background: var(--surface);
+        padding: 20px;
+      }
+      .draft-dialog {
+        max-width: 640px;
+      }
+      .dialog-actions {
+        display: flex;
+        gap: 12px;
+        flex-wrap: wrap;
+      }
+      .secondary {
+        background: transparent;
+        color: var(--accent);
+      }
+      @media (max-width: 1120px) {
+        .wrap {
+          width: calc(100% - 80px);
+        }
+        .nav-link {
+          padding-inline: 16px;
+          font-size: 11px;
+        }
+        .nav-link::after {
+          left: 16px;
+          right: 16px;
+        }
+        .section {
+          padding-block: 90px;
+        }
+        .about-grid {
+          gap: 45px;
+        }
+        .contact-grid {
+          gap: 50px;
+        }
+      }
+      @media (max-width: 960px) {
+        :root {
+          --header: 80px;
+        }
+        .wrap {
+          width: calc(100% - 64px);
+        }
+        .brand-mark {
+          width: 56px;
+        }
+        .brand-name {
+          font-size: 20px;
+        }
+        .desktop-nav {
+          display: none;
+        }
+        .menu-toggle {
+          display: flex;
+        }
+        .mobile-nav:not([hidden]) {
+          display: flex;
+          position: fixed;
+          inset: var(--header) 0 auto;
+          background: var(--paper);
+          padding: 20px 32px 28px;
+          flex-direction: column;
+          border-bottom: 1px solid var(--line);
+          max-height: calc(100svh - var(--header));
+          overflow: auto;
+        }
+        .mobile-nav a {
+          padding: 15px 0;
+          font-size: 14px;
+          letter-spacing: 0.12em;
+          border-bottom: 1px solid #e7e7e7;
+        }
+        .mobile-nav a:last-child {
+          border-bottom: 0;
+        }
+        .mobile-nav a:hover {
+          color: var(--accent);
+        }
+        .hero {
+          min-height: 620px;
+        }
+        .hero h1 {
+          font-size: 52px;
+        }
+        .about-grid {
+          grid-template-columns: 1fr;
+          gap: 42px;
+        }
+        .about-image {
+          aspect-ratio: 16 / 10;
+          max-height: 560px;
+        }
+        .about-copy {
+          max-width: 680px;
+        }
+        .steps {
+          grid-template-columns: repeat(2, minmax(0, 1fr));
+          gap: 40px 30px;
+          margin-top: 45px;
+        }
+        .contact-grid {
+          grid-template-columns: 1fr;
+          gap: 50px;
+        }
+        .contact-info {
+          margin-top: 28px;
+        }
+      }
+      @media (max-width: 639px) {
+        :root {
+          --header: 76px;
+        }
+        .wrap {
+          width: calc(100% - 40px);
+        }
+        .section {
+          padding-block: 68px;
+        }
+        .brand {
+          gap: 9px;
+        }
+        .brand-mark {
+          width: 48px;
+        }
+        .brand-name {
+          font-size: 18px;
+        }
+        .brand-sub {
+          font-size: 8px;
+          letter-spacing: 0.16em;
+        }
+        .mobile-nav:not([hidden]) {
+          padding-inline: 20px;
+        }
+        .hero {
+          min-height: 580px;
+          height: calc(94svh - var(--header));
+          max-height: 840px;
+        }
+        .hero > img {
+          object-position: 55% 50%;
+        }
+        .hero::after {
+          background:
+            linear-gradient(90deg, rgba(0, 0, 0, 0.53), rgba(0, 0, 0, 0.15)),
+            linear-gradient(0deg, rgba(0, 0, 0, 0.4), transparent);
+        }
+        .hero-content {
+          padding-block: 60px 110px;
+        }
+        .hero-content .eyebrow {
+          font-size: 8px;
+          letter-spacing: 0.14em;
+          gap: 10px;
+        }
+        .hero-content .eyebrow::before {
+          width: 20px;
+        }
+        .hero h1 {
+          font-size: clamp(36px, 9vw, 44px);
+          letter-spacing: 0.08em;
+          margin-block: 20px;
+        }
+        .hero-description {
+          font-size: 12px;
+          max-width: 290px;
+        }
+        .hero-bottom {
+          bottom: 25px;
+        }
+        .hero-bottom .eyebrow {
+          font-size: 8px;
+        }
+        .hero-index {
+          gap: 10px;
+          font-size: 8px;
+          letter-spacing: 0.08em;
+        }
+        .hero-index span {
+          width: 24px;
+        }
+        .section-head {
+          align-items: start;
+          flex-direction: column;
+          gap: 22px;
+          margin-bottom: 30px;
+        }
+        .section-title {
+          font-size: 28px;
+        }
+        .about-image {
+          aspect-ratio: 4 / 3;
+        }
+        .about-copy p {
+          font-size: 13px;
+        }
+        .about-values {
+          gap: 23px;
+          font-size: 10px;
+        }
+        .steps {
+          gap: 32px 24px;
+          margin-top: 35px;
+        }
+        .step {
+          padding-right: 0;
+        }
+        .step-number {
+          font-size: 34px;
+        }
+        .step h3 {
+          font-size: 16px;
+          margin-top: 22px;
+        }
+        .step p {
+          font-size: 12px;
+          margin-top: 15px;
+        }
+        .step-en {
+          font-size: 8px;
+          letter-spacing: 0.07em;
+        }
+        .works-grid {
+          grid-template-columns: 1fr;
+          gap: 32px;
+        }
+        .image-box {
+          aspect-ratio: 4 / 3;
+        }
+        .image-corner {
+          opacity: 1;
+          transform: none;
+          width: 34px;
+          height: 34px;
+          right: 14px;
+          bottom: 14px;
+        }
+        .work-meta {
+          padding-top: 16px;
+        }
+        .work-title {
+          font-size: 17px;
+        }
+        .contact-title {
+          font-size: 33px;
+        }
+        .form-row {
+          gap: 22px;
+        }
+        .dialog-inner {
+          padding: 28px 22px;
+        }
+        .dialog-title {
+          font-size: 22px;
+        }
+        .footer-content {
+          font-size: 9px;
+          line-height: 1.8;
+        }
+      }
+      @media (prefers-reduced-motion: reduce) {
+        html {
+          scroll-behavior: auto;
+        }
+        *,
+        *::before,
+        *::after {
+          transition: none !important;
+          animation: none !important;
+        }
+      }
+
+      .step-featured {
+        border-top-color: var(--accent);
+      }
+      .step-featured .step-number {
+        color: var(--accent);
+      }
+      .step strong {
+        color: var(--ink);
+        font-weight: 500;
+      }
+      .service-highlights {
+        display: grid;
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 40px;
+        margin-top: 48px;
+        padding-top: 34px;
+        border-top: 1px solid #cfcfcf;
+      }
+      .service-highlight {
+        border-left: 2px solid var(--accent);
+        padding-left: 22px;
+      }
+      .service-highlight .eyebrow {
+        color: var(--accent);
+        margin-bottom: 12px;
+      }
+      .service-highlight h3 {
+        font-size: 19px;
+        font-weight: 400;
+        letter-spacing: 0.06em;
+        line-height: 1.7;
+        margin: 0 0 12px;
+      }
+      .service-highlight > p:last-child {
+        font-size: 13px;
+        line-height: 2.1;
+        color: #656565;
+        max-width: 490px;
+      }
+      @media (min-width: 961px) and (max-width: 1200px) {
+        .steps {
+          grid-template-columns: repeat(3, minmax(0, 1fr));
+          gap: 38px 30px;
+        }
+      }
+      @media (max-width: 639px) {
+        .steps {
+          grid-template-columns: 1fr;
+          gap: 0;
+          margin-top: 36px;
+        }
+        .step {
+          display: grid;
+          grid-template-columns: 42px minmax(0, 1fr);
+          column-gap: 14px;
+          border-top: 0;
+          border-left: 1px solid #bdbdbd;
+          padding: 0 0 30px 24px;
+          margin-left: 3px;
+        }
+        .step:last-child {
+          padding-bottom: 0;
+        }
+        .step::before {
+          left: -3px;
+          top: 12px;
+        }
+        .step .step-number {
+          grid-row: 1 / 4;
+          font-size: 27px;
+          line-height: 1.4;
+        }
+        .step h3 {
+          margin: 0 0 6px;
+          font-size: 17px;
+        }
+        .step .step-en {
+          grid-column: 2;
+          font-size: 8px;
+        }
+        .step p {
+          grid-column: 2;
+          margin-top: 10px;
+          font-size: 13px;
+          line-height: 2;
+        }
+        .service-highlights {
+          grid-template-columns: 1fr;
+          gap: 28px;
+          margin-top: 36px;
+          padding-top: 28px;
+        }
+        .service-highlight {
+          padding-left: 18px;
+        }
+        .service-highlight h3 {
+          font-size: 17px;
+        }
+      }
+      #work-dialog {
+        width: min(1040px, calc(100% - 40px));
+      }
+      #work-dialog > .dialog-close {
+        z-index: 3;
+      }
+      .gallery-stage {
+        position: relative;
+        background: #111111;
+        touch-action: pan-y pinch-zoom;
+      }
+      #work-dialog .dialog-image {
+        width: 100%;
+        height: min(54svh, 620px);
+        aspect-ratio: auto;
+        object-fit: contain;
+        background: #111111;
+        color: #ffffff;
+      }
+      .gallery-nav {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        display: grid;
+        place-items: center;
+        width: 44px;
+        height: 52px;
+        border: 1px solid rgba(255, 255, 255, 0.5);
+        background: rgba(0, 0, 0, 0.55);
+        color: #ffffff;
+        font-size: 25px;
+        transition: background 0.2s;
+      }
+      .gallery-nav:hover {
+        background: var(--accent);
+      }
+      .gallery-nav[hidden],
+      .gallery-thumbnails[hidden],
+      .gallery-error[hidden] {
+        display: none;
+      }
+      .gallery-prev {
+        left: 18px;
+      }
+      .gallery-next {
+        right: 18px;
+      }
+      .gallery-meta {
+        display: flex;
+        justify-content: space-between;
+        gap: 20px;
+        align-items: start;
+        padding: 18px 28px 0;
+      }
+      .gallery-caption {
+        font-size: 11px;
+        line-height: 1.9;
+        color: var(--muted);
+      }
+      .gallery-count {
+        flex-shrink: 0;
+        font-size: 11px;
+        letter-spacing: 0.12em;
+        line-height: 1.9;
+        color: var(--accent);
+        font-variant-numeric: tabular-nums;
+      }
+      .gallery-thumbnails {
+        position: relative;
+        display: flex;
+        gap: 10px;
+        margin: 16px 28px 0;
+        padding: 3px 2px 8px;
+        overflow-x: auto;
+        overscroll-behavior-x: contain;
+        scrollbar-width: thin;
+      }
+      .gallery-thumbnail {
+        flex: 0 0 88px;
+        width: 88px;
+        height: 62px;
+        border: 1px solid #dddddd;
+        background: #ffffff;
+        padding: 3px;
+      }
+      .gallery-thumbnail img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+      .gallery-thumbnail[aria-pressed="true"] {
+        border: 2px solid var(--accent);
+        padding: 2px;
+      }
+      .gallery-error {
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        width: min(330px, 80%);
+        padding: 16px;
+        text-align: center;
+        background: #202020;
+        color: #ffffff;
+        font-size: 13px;
+        line-height: 1.9;
+        pointer-events: none;
+      }
+      #work-dialog .dialog-inner {
+        padding-top: 26px;
+      }
+      @media (max-width: 639px) {
+        #work-dialog {
+          width: calc(100% - 16px);
+          max-height: 94svh;
+        }
+        #work-dialog .dialog-image {
+          height: 42svh;
+          min-height: 230px;
+        }
+        .gallery-nav {
+          width: 40px;
+          height: 46px;
+          font-size: 22px;
+        }
+        .gallery-prev {
+          left: 10px;
+        }
+        .gallery-next {
+          right: 10px;
+        }
+        .gallery-meta {
+          padding: 15px 20px 0;
+          gap: 14px;
+        }
+        .gallery-caption {
+          font-size: 10px;
+        }
+        .gallery-thumbnails {
+          margin-inline: 20px;
+        }
+        .gallery-thumbnail {
+          flex-basis: 74px;
+          width: 74px;
+          height: 54px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <a href="#main" class="skip">跳至主要內容</a>
+    <header class="header">
+      <div class="wrap h-full flex items-center justify-between">
+        <a href="#home" class="brand" aria-label="一大室內設計 首頁">
+          <!-- 以 CSS 顯示原始 LOGO 的上方圖案；中英文品牌文字排在右側。 -->
+          <span class="brand-mark">
+            <img
+              src="assets/yida-logo.png"
+              alt="一大室內設計 LOGO"
+              width="1536"
+              height="1024"
+              decoding="sync"
+            />
+          </span>
+          <span>
+            <span class="brand-name">一大室內設計</span>
+            <span class="brand-sub" lang="en">YI DA INTERIOR DESIGN</span>
+          </span>
+        </a>
+        <nav aria-label="主要導覽" class="desktop-nav">
+          <a class="nav-link" href="#home" aria-current="location">首頁</a>
+          <a class="nav-link" href="#about">關於我們</a>
+          <a class="nav-link" href="#service">服務流程</a>
+          <a class="nav-link" href="#works">作品案例</a>
+          <a class="nav-link" href="#contact">聯絡我們</a>
+        </nav>
+        <button
+          id="menu-toggle"
+          class="menu-toggle"
+          aria-label="開啟選單"
+          aria-controls="mobile-nav"
+          aria-expanded="false"
+        >
+          <svg
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            aria-hidden="true"
+          >
+            <path
+              id="menu-lines"
+              d="M3 8h18M3 16h18"
+              stroke="currentColor"
+              stroke-width="1.3"
+            />
+          </svg>
+        </button>
+      </div>
+      <nav id="mobile-nav" class="mobile-nav" aria-label="手機導覽" hidden>
+        <a href="#home">首頁</a>
+        <a href="#about">關於我們</a>
+        <a href="#service">服務流程</a>
+        <a href="#works">作品案例</a>
+        <a href="#contact">聯絡我們</a>
+      </nav>
+    </header>
+
+    <main id="main">
+      <section id="home" class="hero" aria-labelledby="hero-title">
+        <img
+          src="https://i.postimg.cc/Vk3sGVd3/Chat-GPT-Image-2026nian5yue27ri-shang-wu11-40-12.png"
+          alt="木質牆面、開放樓梯與自然光構成的現代住宅空間"
+          width="1920"
+          height="1280"
+          fetchpriority="high"
+        />
+        <div class="wrap hero-content">
+          <p class="eyebrow">Thoughtful spaces. Meaningful living.</p>
+          <h1 id="hero-title">讓空間，<br />回到生活。</h1>
+          <p class="hero-description">
+            把日常的嚮往，安放在每一處細節。<br />以光、材質與留白，寫下家的模樣。
+          </p>
+          <a class="hero-button mt-9" href="#works"
+            >探索精選作品 <span aria-hidden="true">↗</span></a
+          >
+        </div>
+        <div class="wrap hero-bottom">
+          <a href="#works" class="flex items-end"
+            ><span class="scroll-line" aria-hidden="true"></span
+            ><span class="eyebrow">Scroll to discover</span
+            ><span class="sr-only">，往下探索作品</span></a
+          >
+          <div class="hero-index" aria-hidden="true">
+            01 <span></span> SPACE &amp; LIVING
+          </div>
+        </div>
+      </section>
+
+      <section
+        id="about"
+        class="wrap section about-grid"
+        aria-labelledby="about-title"
+      >
+        <div class="about-image">
+          <img
+            src="https://i.postimg.cc/YqJSvXRV/LINE-ALBUM-xin-jin-zhi35hao-260406-3.jpg"
+            alt="陽光照進自然色調的客廳，呈現安靜而有層次的空間氛圍"
+            width="1100"
+            height="1320"
+            loading="lazy"
+            decoding="async"
+          /><span class="about-caption">A SPACE TO BE YOURSELF.</span>
+        </div>
+        <div class="about-copy">
+          <p class="eyebrow muted mb-5">01 / About us</p>
+          <h2 id="about-title" class="section-title mb-7">
+            以日常為序，<br />為生活留白。
+          </h2>
+          <p>
+            我們相信，每個人心中都有一個理想家的模樣。從生活習慣、空間動線到材質與細節，一大室內設計用心傾聽每一份需求，將屋主對家的想像，轉化為兼具美感、機能與長久使用性的空間。
+          </p>
+          <p class="mt-4">
+            我們重視設計過程中的每一次溝通，透過完整的 3D 圖面、清楚的報價內容與透明的工程管理，陪伴客戶一步步實現理想中的家，讓設計真正融入生活，也讓每個空間都成為安心、舒適且值得長久居住的地方。
+          </p>
+          <div class="about-values">
+            <span>用設計承接想像，為生活實現理想</span>
+          </div>
+          <a
+            href="#contact"
+            class="text-link inline-flex items-center gap-10 mt-9 text-xs tracking-widest"
+            >聊聊你的理想空間
+            <span class="arrow" aria-hidden="true">↗</span></a
+          >
+        </div>
+      </section>
+
+      <section
+        id="service"
+        class="section process"
+        aria-labelledby="service-title"
+      >
+        <div class="wrap">
+          <div class="section-head">
+            <div>
+              <p class="eyebrow muted mb-3">02 / Our process</p>
+              <h2 id="service-title" class="section-title">從想像，到日常。</h2>
+            </div>
+            <p class="text-xs leading-7 muted max-w-sm">
+              在簽約前，把設計與預算說清楚；<br class="hidden sm:block" />
+              在施工中，讓每個階段的進度看得見。
+            </p>
+          </div>
+          <ol class="steps" aria-label="六階段服務流程">
+            <li class="step">
+              <span class="step-number" aria-hidden="true">01</span>
+              <h3>初步溝通</h3>
+              <span class="step-en muted">DISCOVER &amp; LISTEN</span>
+              <p>
+                聊聊生活習慣、喜愛的風格、空間需求與預算，先理解你對家的想像。
+              </p>
+            </li>
+            <li class="step">
+              <span class="step-number" aria-hidden="true">02</span>
+              <h3>現場丈量</h3>
+              <span class="step-en muted">SITE MEASUREMENT</span>
+              <p>
+                至現場丈量尺寸、了解格局與空間現況，作為後續規劃與設計提案的依據。
+              </p>
+            </li>
+            <li class="step step-featured">
+              <span class="step-number" aria-hidden="true">03</span>
+              <h3>初步提案</h3>
+              <span class="step-en muted">3D &amp; ITEMIZED QUOTE</span>
+              <p>
+                提供<strong>完整 3D 圖面與報價細項</strong
+                >，具體看見空間樣貌，也清楚了解各項費用。
+              </p>
+            </li>
+            <li class="step">
+              <span class="step-number" aria-hidden="true">04</span>
+              <h3>簽約</h3>
+              <span class="step-en muted">AGREEMENT</span>
+              <p>確認設計方向、報價細項與合作內容，雙方達成共識後正式簽約。</p>
+            </li>
+            <li class="step step-featured">
+              <span class="step-number" aria-hidden="true">05</span>
+              <h3>工程執行</h3>
+              <span class="step-en muted">BUILD &amp; UPDATE</span>
+              <p>
+                依確認內容安排施作，透過
+                <strong>Notion 同步工程進度</strong
+                >，掌握目前施工階段與執行狀況。
+              </p>
+            </li>
+            <li class="step">
+              <span class="step-number" aria-hidden="true">06</span>
+              <h3>完工驗收</h3>
+              <span class="step-en muted">REVIEW &amp; HANDOVER</span>
+              <p>
+                逐項確認完工品質、設備操作與交付內容，完成驗收與空間交接，迎接新的生活。
+              </p>
+            </li>
+          </ol>
+          <div class="service-highlights" aria-label="一大的服務特色">
+            <article class="service-highlight">
+              <p class="eyebrow">03 / 提案看得見</p>
+              <h3>完整 3D 圖面 × 報價細項</h3>
+              <p>
+                初步提案就能看見完整的 3D
+                空間規劃，搭配逐項報價，讓設計與預算都有清楚的討論依據。
+              </p>
+            </article>
+            <article class="service-highlight">
+              <p class="eyebrow">05 / 進度跟得上</p>
+              <h3>Notion 工程進度同步</h3>
+              <p>
+                工程執行期間運用 Notion
+                同步施工進度，讓客戶了解目前進行到哪個階段，清楚掌握工程狀況。
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="works" class="wrap section" aria-labelledby="works-title">
+        <div class="section-head">
+          <div>
+            <p class="eyebrow muted mb-3">03 / Selected works</p>
+            <h2 id="works-title" class="section-title">空間裡的生活提案</h2>
+          </div>
+          <div class="filters" role="group" aria-label="篩選作品類別">
+            <button
+              class="filter"
+              type="button"
+              data-filter="all"
+              aria-pressed="true"
+            >
+              全部作品 <span class="ml-1 text-[10px]">06</span>
+            </button>
+            <button
+              class="filter"
+              type="button"
+              data-filter="residential"
+              aria-pressed="false"
+            >
+              住宅空間
+            </button>
+            <button
+              class="filter"
+              type="button"
+              data-filter="commercial"
+              aria-pressed="false"
+            >
+              商業空間
+            </button>
+          </div>
+        </div>
+        <div class="works-grid">
+          <article
+            class="work-card"
+            data-category="residential"
+            data-description="以奶油白與溫潤木色建立空間基調，讓採光沿著開放的生活動線自然流動。概念方向：開放客餐廳、自然材質、低彩度配色。"
+          >
+            <button
+              class="work-button"
+              type="button"
+              aria-label="查看 沐光之間 住宅概念作品"
+            >
+              <div class="image-box">
+                <img
+                  src="https://i.postimg.cc/HW4PKr86/LINE-ALBUM-qing-pu-hui-zheng-xian-sheng-260406-12.jpg"
+                  alt="北歐代表系列，溫馨便利小宅"
+                  width="900"
+                  height="675"
+                  loading="lazy"
+                  decoding="async"
+                /><span class="image-corner" aria-hidden="true">↗</span>
+              </div>
+              <div class="work-meta">
+                <div>
+                  <h3 class="work-title">沐光之間</h3>
+                  <p class="work-type">RESIDENTIAL / 住宅概念</p>
+                </div>
+                <span class="work-number">01</span>
+              </div>
+            </button>
+
+            <!-- 此案例相簿：每多一張照片，新增一行 img；順序即播放順序。 -->
+            <template class="work-gallery">
+              <img
+                src="https://i.postimg.cc/PrCYDcHm/LINE-ALBUM-qing-pu-hui-zheng-xian-sheng-260406-32.jpg"
+                alt="木質空間搭配白色鋁框拉門"
+              />
+              <img
+                src="https://i.postimg.cc/wT1LNPz2/LINE-ALBUM-qing-pu-hui-zheng-xian-sheng-260406-42.jpg"
+                alt="質感中島享受生活便利"
+              />
+              <img
+                src="https://i.postimg.cc/c4vw3jW9/LINE-ALBUM-qing-pu-hui-zheng-xian-sheng-260406-43.jpg"
+                alt="以暖色木作與藝術漆搭配產生豐富想像"
+              />
+              <img
+                src="https://i.postimg.cc/jqgyLTp2/LINE-ALBUM-qing-pu-hui-zheng-xian-sheng-260406-11.jpg"
+                alt="以中性色彩與石材質感呈現的現代居家空間"
+              />
+            </template>
+          </article>
+          <article
+            class="work-card"
+            data-category="residential"
+            data-description="收斂色彩與裝飾，讓簡潔線條與柔軟織品形成平衡，營造適合慢下來的居住節奏。概念方向：材質層次、柔和照明、安靜留白。"
+          >
+            <button
+              class="work-button"
+              type="button"
+              aria-label="查看 靜謐日常 住宅概念作品"
+            >
+              <div class="image-box">
+                <img
+                  src="https://i.postimg.cc/dQ20C8NL/LINE-ALBUM-chuang-wei-tian-fu-260406-4.jpg"
+                  alt="溫潤、留白、秩序作為空間核心"
+                  width="900"
+                  height="675"
+                  loading="lazy"
+                  decoding="async"
+                /><span class="image-corner" aria-hidden="true">↗</span>
+              </div>
+              <div class="work-meta">
+                <div>
+                  <h3 class="work-title">靜謐日常</h3>
+                  <p class="work-type">RESIDENTIAL / 住宅概念</p>
+                </div>
+                <span class="work-number">02</span>
+              </div>
+            </button>
+
+            <!-- 此案例相簿：每多一張照片，新增一行 img；順序即播放順序。 -->
+            <template class="work-gallery">
+              <img
+                src="https://i.postimg.cc/qBs7K8Dt/LINE-ALBUM-chuang-wei-tian-fu-260406-1.jpg"
+                alt="透過木質肌理與純淨色彩，建立住宅的安定感"
+              />
+              <img
+                src="https://i.postimg.cc/gcV0hvtj/LINE-ALBUM-chuang-wei-tian-fu-260406-5.jpg"
+                alt="設計不追求過度堆疊，而是回應居住本質"
+              />
+              <img
+                src="https://i.postimg.cc/KcPYTnp1/LINE-ALBUM-chuang-wei-tian-fu-260406-3.jpg"
+                alt="每一處細節，都是為日常而設計"
+              />
+            </template>
+          </article>
+          <article
+            class="work-card"
+            data-category="residential"
+            data-description="保留原有採光與尺度的同時，加入剛剛好的家具與生活感。"
+          >
+            <button
+              class="work-button"
+              type="button"
+              aria-label="查看 綠光北歐 住宅概念作品"
+            >
+              <div class="image-box">
+                <img
+                  src="https://i.postimg.cc/QdBp3Wzz/LINE-ALBUM-ming-zhu-260406-1.jpg"
+                  alt="木質、奶油色、低彩度綠"
+                  width="900"
+                  height="675"
+                  loading="lazy"
+                  decoding="async"
+                /><span class="image-corner" aria-hidden="true">↗</span>
+              </div>
+              <div class="work-meta">
+                <div>
+                  <h3 class="work-title">綠光北歐</h3>
+                  <p class="work-type">RESIDENTIAL / 住宅概念</p>
+                </div>
+                <span class="work-number">03</span>
+              </div>
+            </button>
+
+            <!-- 此案例相簿：每多一張照片，新增一行 img；順序即播放順序。 -->
+            <template class="work-gallery">
+              <img
+                src="https://i.postimg.cc/SxwcNx0v/LINE-ALBUM-ming-zhu-260406-12.jpg"
+                alt="簡潔家具與自然材質構成的明亮住宅室內"
+              />
+              <img
+                src="https://i.postimg.cc/13gpQNdB/LINE-ALBUM-ming-zhu-260406-6.jpg"
+                alt="收納美感兼具更衣室"
+              />
+              <img
+                src="https://i.postimg.cc/QdRcxdLP/LINE-ALBUM-ming-zhu-260406-17.jpg"
+                alt="木質生活"
+              />
+            </template>
+          </article>
+          <article
+            class="work-card"
+            data-category="residential"
+            data-description="從生活習慣出發，將木質與大地色延伸到每個角落，讓相聚與獨處都擁有舒適的位置。概念方向：溫暖色溫、生活尺度、觸感材質。"
+          >
+            <button
+              class="work-button"
+              type="button"
+              aria-label="查看 木色慢居 住宅概念作品"
+            >
+              <div class="image-box">
+                <img
+                  src="https://i.postimg.cc/YqJSvXRV/LINE-ALBUM-xin-jin-zhi35hao-260406-3.jpg"
+                  alt="以暖色木作與中性材質搭配的居家室內"
+                  width="900"
+                  height="675"
+                  loading="lazy"
+                  decoding="async"
+                /><span class="image-corner" aria-hidden="true">↗</span>
+              </div>
+              <div class="work-meta">
+                <div>
+                  <h3 class="work-title">木色慢居</h3>
+                  <p class="work-type">RESIDENTIAL / 住宅概念</p>
+                </div>
+                <span class="work-number">04</span>
+              </div>
+            </button>
+
+            <!-- 此案例相簿：每多一張照片，新增一行 img；順序即播放順序。 -->
+            <template class="work-gallery">
+              <img
+                src="https://i.postimg.cc/nc6LXdTp/LINE-ALBUM-xin-jin-zhi35hao-260406-12.jpg"
+                alt="暖色櫃體搭配質感電視牆"
+              />
+              <img
+                src="https://i.postimg.cc/vZfZfWSd/LINE-ALBUM-xin-jin-zhi35hao-260406-15.jpg"
+                alt="間接照明讓房間增添色彩"
+              />
+              <img
+                src="https://i.postimg.cc/FRLvXm5J/LINE-ALBUM-xin-jin-zhi35hao-260406-17.jpg"
+                alt="木質調質感收納"
+              />
+            </template>
+          </article>
+          <article
+            class="work-card"
+            data-category="residential"
+            data-description="最療癒的大概就是待在自己喜歡的空間裡"
+          >
+            <button
+              class="work-button"
+              type="button"
+              aria-label="查看 墨序之間 住宅概念作品"
+            >
+              <div class="image-box">
+                <img
+                  src="https://i.postimg.cc/J7NbhHb6/LINE-ALBUM-xing-ning-jie-ye-jia-yan-260406-5.jpg"
+                  alt="暗色材質及鐵件搭配硬派生活"
+                  width="900"
+                  height="675"
+                  loading="lazy"
+                  decoding="async"
+                /><span class="image-corner" aria-hidden="true">↗</span>
+              </div>
+              <div class="work-meta">
+                <div>
+                  <h3 class="work-title">墨序之間</h3>
+                  <p class="work-type">RESIDENTIAL / 住宅概念</p>
+                </div>
+                <span class="work-number">05</span>
+              </div>
+            </button>
+
+            <!-- 此案例相簿：每多一張照片，新增一行 img；順序即播放順序。 -->
+            <template class="work-gallery">
+              <img
+                src="https://i.postimg.cc/kMQx5Rxt/LINE-ALBUM-xing-ning-jie-ye-jia-yan-260406-2.jpg"
+                alt="木作與系統板完美結合，搭配鐵件點綴出質感生活"
+              />
+              <img
+                src="https://i.postimg.cc/NG61021K/LINE-ALBUM-xing-ning-jie-ye-jia-yan-260406-1.jpg"
+                alt="木作與系統板完美結合，搭配鐵件點綴出質感生活"
+              />
+              <img
+                src="https://i.postimg.cc/G3FkpTkB/LINE-ALBUM-xing-ning-jie-ye-jia-yan-260406-3.jpg"
+                alt="收納回憶駐所"
+              />
+            </template>
+          </article>
+          <article
+            class="work-card"
+            data-category="residential"
+            data-description="沒有過多裝飾，把重點留給生活。"
+          >
+            <button
+              class="work-button"
+              type="button"
+              aria-label="查看 恬靜之間 住宅概念作品"
+            >
+              <div class="image-box">
+                <img
+                  src="https://i.postimg.cc/YSTqJXVJ/LINE-ALBUM-yang-mei-fu-ling-lu-wen-sheng-260406-8.jpg"
+                  alt="暖色木作與隔柵搭配的居家室內"
+                  width="900"
+                  height="675"
+                  loading="lazy"
+                  decoding="async"
+                /><span class="image-corner" aria-hidden="true">↗</span>
+              </div>
+              <div class="work-meta">
+                <div>
+                  <h3 class="work-title">恬靜之間</h3>
+                  <p class="work-type">RESIDENTIAL / 住宅概念</p>
+                </div>
+                <span class="work-number">06</span>
+              </div>
+            </button>
+
+            <!-- 此案例相簿：每多一張照片，新增一行 img；順序即播放順序。 -->
+            <template class="work-gallery">
+              <img
+                src="https://i.postimg.cc/FKYHCtWX/LINE-ALBUM-yang-mei-fu-ling-lu-wen-sheng-260406-1.jpg"
+                alt=""
+              />
+              <img
+                src="https://i.postimg.cc/N0ZfWNSc/LINE-ALBUM-yang-mei-fu-ling-lu-wen-sheng-260406-9.jpg"
+                alt=" "
+              />
+              <img
+                src="https://i.postimg.cc/zf4X9dMM/LINE-ALBUM-yang-mei-fu-ling-lu-wen-sheng-260406-5.jpg"
+                alt=" "
+              />
+              <img
+                src="https://i.postimg.cc/25g8PHMm/LINE-ALBUM-yang-mei-fu-ling-lu-wen-sheng-260406-10.jpg"
+                alt=" "
+              />
+              <img
+                src="https://i.postimg.cc/1zb5LWTb/LINE-ALBUM-yang-mei-fu-ling-lu-wen-sheng-260406-7.jpg"
+                alt=" "
+              />
+            </template>
+          </article>
+          <article
+            class="work-card"
+            data-category="residential"
+            data-description="以奶油白、柔和燈光、灰紫色窗簾與暖粉色單椅為主，整體呈現溫柔、優雅的現代輕奢風格。"
+          >
+            <button
+              class="work-button"
+              type="button"
+              aria-label="查看 柔光漫居 住宅概念作品"
+            >
+              <div class="image-box">
+                <img
+                  src="https://i.postimg.cc/PqTM14K0/LINE-ALBUM-ping-zhen-bai-chuan-260406-12.jpg"
+                  alt="暖色木作與隔柵搭配的居家室內"
+                  width="900"
+                  height="675"
+                  loading="lazy"
+                  decoding="async"
+                /><span class="image-corner" aria-hidden="true">↗</span>
+              </div>
+              <div class="work-meta">
+                <div>
+                  <h3 class="work-title">柔光漫居</h3>
+                  <p class="work-type">RESIDENTIAL / 住宅概念</p>
+                </div>
+                <span class="work-number">07</span>
+              </div>
+            </button>
+
+            <!-- 此案例相簿：每多一張照片，新增一行 img；順序即播放順序。 -->
+            <template class="work-gallery">
+              <img
+                src="https://i.postimg.cc/W4T70nSC/LINE-ALBUM-ping-zhen-bai-chuan-260406-11.jpg"
+                alt=""
+              />
+              <img
+                src="https://i.postimg.cc/N0BxR4b3/LINE-ALBUM-ping-zhen-bai-chuan-260406-13.jpg"
+                alt=" "
+              />
+              <img
+                src="https://i.postimg.cc/VNmFXRDy/LINE-ALBUM-ping-zhen-bai-chuan-260406-14.jpg"
+                alt=" "
+              />
+              <img
+                src="https://i.postimg.cc/bwQTGM0C/LINE-ALBUM-ping-zhen-bai-chuan-260406-2.jpg"
+                alt=" "
+              />
+              <img
+                src="https://i.postimg.cc/DwqgWDdK/LINE-ALBUM-ping-zhen-bai-chuan-260406-8.jpg"
+                alt=" "
+              />
+              <img
+                src="https://i.postimg.cc/FHjZfqbB/LINE-ALBUM-ping-zhen-bai-chuan-260406-4.jpg"
+                alt=" "
+              />
+            </template>
+          </article>
+          <article
+            class="work-card"
+            data-category="residential"
+            data-description="冷灰色調、黑框玻璃、淺灰木地板與弧形天花板為主，呈現俐落、沉穩的現代簡約風格"
+          >
+            <button
+              class="work-button"
+              type="button"
+              aria-label="查看 墨框拾光 住宅概念作品"
+            >
+              <div class="image-box">
+                <img
+                  src="https://i.postimg.cc/0jwsvnpz/LINE-ALBUM-lin-kou-hong-guang-260406-14.jpg"
+                  alt="灰白色調搭配俐落線條，讓空間看起來更乾淨、更耐看"
+                  width="900"
+                  height="675"
+                  loading="lazy"
+                  decoding="async"
+                /><span class="image-corner" aria-hidden="true">↗</span>
+              </div>
+              <div class="work-meta">
+                <div>
+                  <h3 class="work-title">墨框拾光</h3>
+                  <p class="work-type">RESIDENTIAL / 住宅概念</p>
+                </div>
+                <span class="work-number">08</span>
+              </div>
+            </button>
+
+            <!-- 此案例相簿：每多一張照片，新增一行 img；順序即播放順序。 -->
+            <template class="work-gallery">
+              <img
+                src="https://i.postimg.cc/dDcKVCBv/LINE-ALBUM-lin-kou-hong-guang-260406-15.jpg"
+                alt=""
+              />
+              <img
+                src="https://i.postimg.cc/Y0WH7R19/LINE-ALBUM-lin-kou-hong-guang-260406-13.jpg"
+                alt=" "
+              />
+              <img
+                src="https://i.postimg.cc/8c6SG4hC/LINE-ALBUM-lin-kou-hong-guang-260406-12.jpg"
+                alt=" "
+              />
+              <img
+                src="https://i.postimg.cc/SRMh4dcH/LINE-ALBUM-lin-kou-hong-guang-260406-6.jpg"
+                alt=" "
+              />
+              <img
+                src="https://i.postimg.cc/T1D6x0rT/LINE-ALBUM-lin-kou-hong-guang-260406-9.jpg"
+                alt=" "
+              />
+              <img
+                src="https://i.postimg.cc/MHQSw51F/LINE-ALBUM-lin-kou-hong-guang-260406-2.jpg"
+                alt=" "
+              />
+            </template>
+          </article>
+          <article
+            class="work-card"
+            data-category="residential"
+            data-description="金色紋理大理石電視牆、黑色線條天花板、暖色家具為主，呈現大器、華麗又帶有現代感的輕奢風格"
+          >
+            <button
+              class="work-button"
+              type="button"
+              aria-label="查看 鎏金歲月 住宅概念作品"
+            >
+              <div class="image-box">
+                <img
+                  src="https://i.postimg.cc/pLtng1Kg/LINE-ALBUM-da-ming-zhu-260406-16.jpg"
+                  alt="大面積金色石紋電視牆，搭配黑色天花線條"
+                  width="900"
+                  height="675"
+                  loading="lazy"
+                  decoding="async"
+                /><span class="image-corner" aria-hidden="true">↗</span>
+              </div>
+              <div class="work-meta">
+                <div>
+                  <h3 class="work-title">鎏金歲月</h3>
+                  <p class="work-type">RESIDENTIAL / 住宅概念</p>
+                </div>
+                <span class="work-number">09</span>
+              </div>
+            </button>
+
+            <!-- 此案例相簿：每多一張照片，新增一行 img；順序即播放順序。 -->
+            <template class="work-gallery">
+              <img
+                src="https://i.postimg.cc/YCwmJyQT/LINE-ALBUM-da-ming-zhu-260406-14.jpg"
+                alt=""
+              />
+              <img
+                src="https://i.postimg.cc/L8MZr0z2/LINE-ALBUM-da-ming-zhu-260406-27.jpg"
+                alt=" "
+              />
+              <img
+                src="https://i.postimg.cc/JzWB9djv/LINE-ALBUM-da-ming-zhu-260406-13.jpg"
+                alt=" "
+              />              
+            </template>
+          </article>
+          <article
+            class="work-card"
+            data-category="residential"
+            data-description="木質收納溫馨小窩"
+          >
+            <button
+              class="work-button"
+              type="button"
+              aria-label="查看 北歐隱 住宅概念作品"
+            >
+              <div class="image-box">
+                <img
+                  src="https://i.postimg.cc/yxtFGmH5/LINE-ALBUM-hou-zheng-hong-zhang-liang-260406-21.jpg"
+                  alt="真正好用的設計，是入住後每天都能感受到。"
+                  width="900"
+                  height="675"
+                  loading="lazy"
+                  decoding="async"
+                /><span class="image-corner" aria-hidden="true">↗</span>
+              </div>
+              <div class="work-meta">
+                <div>
+                  <h3 class="work-title">北歐隱</h3>
+                  <p class="work-type">RESIDENTIAL / 住宅概念</p>
+                </div>
+                <span class="work-number">10</span>
+              </div>
+            </button>
+
+            <!-- 此案例相簿：每多一張照片，新增一行 img；順序即播放順序。 -->
+            <template class="work-gallery">
+              <img
+                src="https://i.postimg.cc/j2mz1Hb4/LINE-ALBUM-hou-zheng-hong-zhang-liang-260406-14.jpg"
+                alt=""
+              />
+              <img
+                src="https://i.postimg.cc/D0HqNrTc/LINE-ALBUM-hou-zheng-hong-zhang-liang-260406-4.jpg"
+                alt=" "
+              />
+              <img
+                src="https://i.postimg.cc/rs3SH1kG/LINE-ALBUM-hou-zheng-hong-zhang-liang-260406-7.jpg"
+                alt=" "
+              />              
+            </template>
+          </article>
+          <article
+            class="work-card"
+            data-category="residential"
+            data-description="現代簡約與輕奢質感，呈現沉穩、大器的住宅氛圍。"
+          >
+            <button
+              class="work-button"
+              type="button"
+              aria-label="查看 石韻雅境 住宅概念作品"
+            >
+              <div class="image-box">
+                <img
+                  src="https://i.postimg.cc/2SnmtCDP/LINE-ALBUM-xin-jin-zhi33hao-260406-10.jpg"
+                  alt="石材紋理與木質元素交織，展現優雅質感"
+                  width="900"
+                  height="675"
+                  loading="lazy"
+                  decoding="async"
+                /><span class="image-corner" aria-hidden="true">↗</span>
+              </div>
+              <div class="work-meta">
+                <div>
+                  <h3 class="work-title">石韻雅境</h3>
+                  <p class="work-type">RESIDENTIAL / 住宅概念</p>
+                </div>
+                <span class="work-number">11</span>
+              </div>
+            </button>
+
+            <!-- 此案例相簿：每多一張照片，新增一行 img；順序即播放順序。 -->
+            <template class="work-gallery">
+              <img
+                src="https://i.postimg.cc/wTCgF7SQ/LINE-ALBUM-xin-jin-zhi33hao-260406-2.jpg"
+                alt=""
+              />
+              <img
+                src="https://i.postimg.cc/Dy9n58tc/LINE-ALBUM-xin-jin-zhi33hao-260406-3.jpg"
+                alt=" "
+              />
+              <img
+                src="https://i.postimg.cc/zGT5QqNZ/LINE-ALBUM-xin-jin-zhi33hao-260406-9.jpg"
+                alt=" "
+              />              
+            </template>
+          </article>
+          <article
+            class="work-card"
+            data-category="residential"
+            data-description="自然、清爽、溫暖的現代簡約風格，帶有一點日系無印的質感。"
+          >
+            <button
+              class="work-button"
+              type="button"
+              aria-label="查看 木映清居 住宅概念作品"
+            >
+              <div class="image-box">
+                <img
+                  src="https://i.postimg.cc/fLW8v7jy/LINE-ALBUM-lian-shang-shi-jie-chen-ling-cheng-260406-2.jpg"
+                  alt="淺木色與灰色牆面相互映襯，營造清爽舒適的生活感"
+                  width="900"
+                  height="675"
+                  loading="lazy"
+                  decoding="async"
+                /><span class="image-corner" aria-hidden="true">↗</span>
+              </div>
+              <div class="work-meta">
+                <div>
+                  <h3 class="work-title">木映清居</h3>
+                  <p class="work-type">RESIDENTIAL / 住宅概念</p>
+                </div>
+                <span class="work-number">12</span>
+              </div>
+            </button>
+
+            <!-- 此案例相簿：每多一張照片，新增一行 img；順序即播放順序。 -->
+            <template class="work-gallery">
+              <img
+                src="https://i.postimg.cc/nzd0Ss0s/LINE-ALBUM-lian-shang-shi-jie-chen-ling-cheng-260406-11.jpg"
+                alt=""
+              />
+              <img
+                src="https://i.postimg.cc/26j0xdFV/LINE-ALBUM-lian-shang-shi-jie-chen-ling-cheng-260406-1.jpg"
+                alt=" "
+              />
+              <img
+                src="https://i.postimg.cc/76PKN1M6/LINE-ALBUM-lian-shang-shi-jie-chen-ling-cheng-260406-3.jpg"
+                alt=" "
+              /> 
+              <img
+                src="https://i.postimg.cc/MTsd3cdy/LINE-ALBUM-lian-shang-shi-jie-chen-ling-cheng-260406-19.jpg"
+                alt=" "
+              />                           
+            </template>
+          </article>
+          <article
+            class="work-card"
+            data-category="residential"
+            data-description="明亮、簡潔又帶有溫度的現代簡約風格。"
+          >
+            <button
+              class="work-button"
+              type="button"
+              aria-label="查看 暖白序曲 住宅概念作品"
+            >
+              <div class="image-box">
+                <img
+                  src="https://i.postimg.cc/VvcYfrjS/LINE-ALBUM-chen-jing-yi-261110-8.jpg"
+                  alt="純白櫃體搭配溫暖光線，展現輕盈質感"
+                  width="900"
+                  height="675"
+                  loading="lazy"
+                  decoding="async"
+                /><span class="image-corner" aria-hidden="true">↗</span>
+              </div>
+              <div class="work-meta">
+                <div>
+                  <h3 class="work-title">暖白序曲</h3>
+                  <p class="work-type">RESIDENTIAL / 住宅概念</p>
+                </div>
+                <span class="work-number">13</span>
+              </div>
+            </button>
+
+            <!-- 此案例相簿：每多一張照片，新增一行 img；順序即播放順序。 -->
+            <template class="work-gallery">
+              <img
+                src="https://i.postimg.cc/0jq8kMpy/LINE-ALBUM-chen-jing-yi-261110-3.jpg"
+                alt=""
+              />
+              <img
+                src="https://i.postimg.cc/Y0wprG1S/LINE-ALBUM-chen-jing-yi-261110-5.jpg"
+                alt=" "
+              />
+              <img
+                src="https://i.postimg.cc/Y0wprG19/LINE-ALBUM-chen-jing-yi-261110-6.jpg"
+                alt=" "
+              /> 
+              <img
+                src="https://i.postimg.cc/rsL8V0Ss/LINE-ALBUM-chen-jing-yi-261110-7.jpg"
+                alt=" "
+              />                           
+            </template>
+          </article>
+          <article
+            class="work-card"
+            data-category="residential"
+            data-description="溫柔、舒適的日系北歐風格，帶有濃厚的生活感。"
+          >
+            <button
+              class="work-button"
+              type="button"
+              aria-label="查看 沐木之間 住宅概念作品"
+            >
+              <div class="image-box">
+                <img
+                  src="https://i.postimg.cc/hP6xscGJ/LINE-ALBUM-hao-han-sen-260422-1.jpg"
+                  alt="以自然木質與溫暖光線，打造舒適居所"
+                  width="900"
+                  height="675"
+                  loading="lazy"
+                  decoding="async"
+                /><span class="image-corner" aria-hidden="true">↗</span>
+              </div>
+              <div class="work-meta">
+                <div>
+                  <h3 class="work-title">沐木之間</h3>
+                  <p class="work-type">RESIDENTIAL / 住宅概念</p>
+                </div>
+                <span class="work-number">14</span>
+              </div>
+            </button>
+
+            <!-- 此案例相簿：每多一張照片，新增一行 img；順序即播放順序。 -->
+            <template class="work-gallery">
+              <img
+                src="https://i.postimg.cc/MKNR5qGs/LINE-ALBUM-hao-han-sen-260422-11.jpg"
+                alt=""
+              />
+              <img
+                src="https://i.postimg.cc/bwnnFWGR/LINE-ALBUM-hao-han-sen-260422-12.jpg"
+                alt=" "
+              />
+              <img
+                src="https://i.postimg.cc/DwGGYHWD/LINE-ALBUM-hao-han-sen-260422-16.jpg"
+                alt=" "
+              /> 
+              <img
+                src="https://i.postimg.cc/Cx886XZG/LINE-ALBUM-hao-han-sen-260422-7.jpg"
+                alt=" "
+              />
+              <img
+                src="https://i.postimg.cc/28MvGr5T/LINE-ALBUM-hao-han-sen-260422-6.jpg"
+                alt=""
+              />
+              <img
+                src="https://i.postimg.cc/jdmNctj7/LINE-ALBUM-hao-han-sen-260422-5.jpg"
+                alt=" "
+              />
+              <img
+                src="https://i.postimg.cc/8zvvn9FX/LINE-ALBUM-hao-han-sen-260422-14.jpg"
+                alt=" "
+              /> 
+              <img
+                src="https://i.postimg.cc/7hyBR09s/LINE-ALBUM-2026419-hao-han-sen-PARK-(xin-zhu)-260422-1.jpg"
+                alt=" "
+              />                           
+            </template>
+          </article>
+        </div>
+        <div
+          class="mt-10 flex items-center justify-between gap-4 border-t border-[#dddddd] pt-5"
+        >
+          <p class="text-[10px] leading-6 muted">
+            皆為實際案例，依不同格局設計
+          </p>
+          <p
+            id="filter-status"
+            class="text-[10px] muted whitespace-nowrap"
+            role="status"
+            aria-live="polite"
+          >
+            共 6 件作品
+          </p>
+        </div>
+      </section>
+
+      <section
+        id="contact"
+        class="section contact"
+        aria-labelledby="contact-title"
+      >
+        <div class="wrap contact-grid">
+          <div>
+            <p class="eyebrow muted mb-5">04 / Start a conversation</p>
+            <h2 id="contact-title" class="contact-title">
+              下一個故事，<br />從你的生活開始。
+            </h2>
+            <p class="text-xs leading-8 muted mt-6">
+              無論是新家的想像，或空間的重新整理，<br />我們都期待聽見你的想法。
+            </p>
+            <dl class="contact-info">
+              <dt>EMAIL</dt>
+              <dd>a1240310@gmail.com <span class="muted"></span></dd>
+              <dt>TELEPHONE</dt>
+              <dd class="muted">0936-364-550</dd>
+              <dt>LOCATION</dt>
+              <dd class="muted">桃園市平鎮區廣東路12號 · 採預約制</dd>
+            </dl>
+            <p class="contact-note mt-6">
+              此頁作品與文案為網站示意，正式聯絡資訊待更新。
+            </p>
+          </div>
+          <form id="contact-form">
+            <div class="form-row">
+              <div>
+                <label class="field-label" for="name"
+                  >您的姓名 <span aria-hidden="true">*</span></label
+                ><input
+                  class="field"
+                  id="name"
+                  name="name"
+                  type="text"
+                  autocomplete="name"
+                  placeholder="如何稱呼您"
+                  maxlength="60"
+                  required
+                />
+              </div>
+              <div>
+                <label class="field-label" for="phone"
+                  >聯絡電話 <span aria-hidden="true">*</span></label
+                ><input
+                  class="field"
+                  id="phone"
+                  name="phone"
+                  type="tel"
+                  autocomplete="tel"
+                  inputmode="tel"
+                  placeholder="手機或市話"
+                  maxlength="30"
+                  pattern="[0-9+\(\)\s.\-]{7,30}"
+                  title="請輸入 7–30 個字元，可包含數字、空白、+、括號、點及連字號"
+                  required
+                />
+              </div>
+            </div>
+            <div class="mt-8">
+              <label class="field-label" for="message"
+                >關於您的空間 <span aria-hidden="true">*</span></label
+              ><textarea
+                class="field"
+                id="message"
+                name="message"
+                rows="4"
+                placeholder="空間類型、所在區域、坪數、預算，或任何想告訴我們的事⋯⋯"
+                maxlength="2000"
+                required
+                aria-describedby="message-hint"
+              ></textarea>
+              <p id="message-hint" class="contact-note mt-2">
+                請勿填入身分證字號、帳戶等敏感資訊。
+              </p>
+            </div>
+            <label class="privacy-check mt-6"
+              ><input type="checkbox" name="acknowledgment" required /><span
+                >我了解此示範表單只會在本機整理需求草稿，尚未送出給工作室。</span
+              ></label
+            >
+            <div class="mt-7 flex flex-wrap items-center gap-5 justify-between">
+              <p class="contact-note">帶有 * 的欄位為必填。</p>
+              <button id="prepare-draft" class="submit" type="submit" disabled>
+                整理諮詢需求 <span aria-hidden="true">↗</span>
+              </button>
+            </div>
+            <noscript
+              ><p class="contact-note mt-4">
+                請啟用 JavaScript 以建立草稿；此表單不會將資料傳送至伺服器。
+              </p></noscript
+            >
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="wrap footer-content">
+        <p>
+          © <span id="year">2026</span> 一大室內設計
+        </p>
+        <div class="flex items-center gap-7">
+          <span>DESIGNED FOR EVERYDAY LIVING.</span
+          ><a href="#home" class="text-link" aria-label="回到頁面頂端"
+            >BACK TO TOP <span class="arrow ml-2" aria-hidden="true">↑</span></a
+          >
+        </div>
+      </div>
+    </footer>
+
+    <dialog id="work-dialog" aria-labelledby="work-dialog-title">
+      <button
+        class="dialog-close"
+        type="button"
+        data-close
+        aria-label="關閉作品詳情"
+      >
+        ×
+      </button>
+      <div
+        id="gallery-stage"
+        class="gallery-stage"
+        role="group"
+        aria-label="案例照片相簿"
+      >
+        <img
+          id="work-dialog-image"
+          class="dialog-image"
+          alt=""
+          width="1400"
+          height="900"
+          draggable="false"
+        />
+        <button
+          id="gallery-prev"
+          class="gallery-nav gallery-prev"
+          type="button"
+          aria-label="上一張照片"
+        >
+          ‹
+        </button>
+        <button
+          id="gallery-next"
+          class="gallery-nav gallery-next"
+          type="button"
+          aria-label="下一張照片"
+        >
+          ›
+        </button>
+        <p id="gallery-error" class="gallery-error" role="status" hidden>
+          這張圖片暫時無法載入，請切換其他照片。
+        </p>
+      </div>
+      <div class="gallery-meta">
+        <p id="gallery-caption" class="gallery-caption"></p>
+        <p
+          id="gallery-count"
+          class="gallery-count"
+          role="status"
+          aria-live="polite"
+        ></p>
+      </div>
+      <div
+        id="gallery-thumbnails"
+        class="gallery-thumbnails"
+        role="group"
+        aria-label="選擇案例照片"
+      ></div>
+      <div class="dialog-inner">
+        <p id="work-dialog-type" class="eyebrow muted mb-3"></p>
+        <h2 id="work-dialog-title" class="dialog-title mb-4"></h2>
+        <p id="work-dialog-description" class="dialog-description"></p>
+        <p class="text-[10px] muted mt-4">
+          案例參考，實際依現場需求格局做訂製。
+        </p>
+        <a
+          id="work-inquiry"
+          class="text-link inline-flex gap-8 text-xs mt-7"
+          href="#contact"
+          >諮詢類似風格 <span aria-hidden="true">↗</span></a
+        >
+      </div>
+    </dialog>
+    <dialog
+      id="draft-dialog"
+      class="draft-dialog"
+      aria-labelledby="draft-title"
+      aria-describedby="draft-note"
+    >
+      <button
+        class="dialog-close"
+        type="button"
+        data-close
+        aria-label="關閉需求草稿"
+      >
+        ×
+      </button>
+      <div class="dialog-inner">
+        <p class="eyebrow muted mb-4 pr-12">Your next chapter</p>
+        <h2 id="draft-title" class="dialog-title">您的需求草稿已整理</h2>
+        <p id="draft-note" class="dialog-description mt-4">
+          資料尚未送出。您可以複製或下載草稿，待工作室提供正式聯絡方式後使用。
+        </p>
+        <pre id="draft-content" class="draft my-6"></pre>
+        <div class="dialog-actions">
+          <button id="copy-draft" class="dialog-action" type="button">
+            複製需求內容</button
+          ><button
+            id="download-draft"
+            class="dialog-action secondary"
+            type="button"
+          >
+            下載文字檔 ↓
+          </button>
+        </div>
+        <p
+          id="copy-status"
+          class="text-xs muted mt-4"
+          role="status"
+          aria-live="polite"
+        ></p>
+      </div>
+    </dialog>
+
+    <script>
+      "use strict";
+      const $ = (selector, root = document) => root.querySelector(selector);
+      const $$ = (selector, root = document) => [
+        ...root.querySelectorAll(selector),
+      ];
+      const menuButton = $("#menu-toggle");
+      const mobileNav = $("#mobile-nav");
+      function setMenu(open) {
+        mobileNav.hidden = !open;
+        menuButton.setAttribute("aria-expanded", String(open));
+        menuButton.setAttribute("aria-label", open ? "關閉選單" : "開啟選單");
+        $("#menu-lines").setAttribute(
+          "d",
+          open ? "M5 5l14 14M5 19L19 5" : "M3 8h18M3 16h18",
+        );
+      }
+      menuButton.addEventListener("click", () =>
+        setMenu(menuButton.getAttribute("aria-expanded") !== "true"),
+      );
+      $$("a", mobileNav).forEach((link) =>
+        link.addEventListener("click", () => setMenu(false)),
+      );
+      document.addEventListener("keydown", (event) => {
+        if (event.key === "Escape" && !mobileNav.hidden) {
+          setMenu(false);
+          menuButton.focus();
+        }
+      });
+      document.addEventListener("click", (event) => {
+        if (!event.target.closest(".header")) setMenu(false);
+      });
+      matchMedia("(min-width: 961px)").addEventListener("change", (event) => {
+        if (event.matches) setMenu(false);
+      });
+
+      // 所有作品皆存在於原始 HTML，無須 JavaScript 即可被閱讀及檢索。
+      $$(".filter").forEach((button) =>
+        button.addEventListener("click", () => {
+          $$(".filter").forEach((item) =>
+            item.setAttribute("aria-pressed", String(item === button)),
+          );
+          let count = 0;
+          $$(".work-card").forEach((card) => {
+            card.hidden =
+              button.dataset.filter !== "all" &&
+              card.dataset.category !== button.dataset.filter;
+            if (!card.hidden) count++;
+          });
+          $("#filter-status").textContent = `共 ${count} 件作品`;
+        }),
+      );
+      // 案例增減後自動計算總數，不需手動修改「共 6 件作品」。
+      $("#filter-status").textContent = `共 ${$$(".work-card").length} 件作品`;
+
+      function openDialog(dialog) {
+        dialog.showModal();
+        document.body.classList.add("locked");
+      }
+      $$("dialog").forEach((dialog) => {
+        $("[data-close]", dialog).addEventListener("click", () =>
+          dialog.close(),
+        );
+        dialog.addEventListener("close", () =>
+          document.body.classList.remove("locked"),
+        );
+        dialog.addEventListener("click", (event) => {
+          const rect = dialog.getBoundingClientRect();
+          if (
+            event.target === dialog &&
+            (event.clientX < rect.left ||
+              event.clientX > rect.right ||
+              event.clientY < rect.top ||
+              event.clientY > rect.bottom)
+          )
+            dialog.close();
+        });
+      });
+      const workDialog = $("#work-dialog");
+      const galleryImage = $("#work-dialog-image");
+      const galleryThumbnails = $("#gallery-thumbnails");
+      let galleryPhotos = [];
+      let galleryIndex = 0;
+
+      function gallerySource(source, width) {
+        const url = new URL(source, document.baseURI);
+        if (url.hostname === "images.unsplash.com")
+          url.searchParams.set("w", String(width));
+        return url.href;
+      }
+
+      function showGalleryPhoto(index) {
+        if (!galleryPhotos.length) return;
+        galleryIndex = (index + galleryPhotos.length) % galleryPhotos.length;
+        const photo = galleryPhotos[galleryIndex];
+        $("#gallery-error").hidden = true;
+        galleryImage.alt = photo.alt;
+        galleryImage.src = gallerySource(photo.src, 1600);
+        $("#gallery-count").textContent =
+          `${String(galleryIndex + 1).padStart(2, "0")} / ${String(galleryPhotos.length).padStart(2, "0")}`;
+        $("#gallery-caption").textContent = photo.alt;
+        $$("button", galleryThumbnails).forEach((button, position) => {
+          button.setAttribute(
+            "aria-pressed",
+            String(position === galleryIndex),
+          );
+        });
+        const selected = galleryThumbnails.children[galleryIndex];
+        if (selected && !galleryThumbnails.hidden) {
+          const center =
+            selected.offsetLeft +
+            selected.offsetWidth / 2 -
+            galleryThumbnails.clientWidth / 2;
+          galleryThumbnails.scrollLeft = Math.max(0, center);
+        }
+      }
+
+      function setGallery(card) {
+        const cover = $(".image-box img", card);
+        const template = $("template.work-gallery", card);
+        const images = template ? $$("img", template.content) : [];
+        galleryPhotos = (images.length ? images : [cover]).map((image) => ({
+          src: image.getAttribute("src"),
+          alt: image.alt || $(".work-title", card).textContent,
+        }));
+        galleryThumbnails.replaceChildren();
+        galleryPhotos.forEach((photo, position) => {
+          const button = document.createElement("button");
+          button.type = "button";
+          button.className = "gallery-thumbnail";
+          button.setAttribute(
+            "aria-label",
+            `查看第 ${position + 1} 張：${photo.alt}`,
+          );
+          button.setAttribute("aria-pressed", "false");
+          const image = document.createElement("img");
+          image.src = gallerySource(photo.src, 180);
+          image.alt = "";
+          image.width = 120;
+          image.height = 80;
+          image.loading = "lazy";
+          image.decoding = "async";
+          button.append(image);
+          button.addEventListener("click", () => showGalleryPhoto(position));
+          galleryThumbnails.append(button);
+        });
+        const single = galleryPhotos.length < 2;
+        $("#gallery-prev").hidden = single;
+        $("#gallery-next").hidden = single;
+        galleryThumbnails.hidden = single;
+        galleryThumbnails.scrollLeft = 0;
+        showGalleryPhoto(0);
+      }
+
+      $("#gallery-prev").addEventListener("click", () =>
+        showGalleryPhoto(galleryIndex - 1),
+      );
+      $("#gallery-next").addEventListener("click", () =>
+        showGalleryPhoto(galleryIndex + 1),
+      );
+      galleryImage.addEventListener("error", () => {
+        $("#gallery-error").hidden = false;
+      });
+      workDialog.addEventListener("keydown", (event) => {
+        if (
+          galleryPhotos.length < 2 ||
+          !["ArrowLeft", "ArrowRight"].includes(event.key)
+        )
+          return;
+        event.preventDefault();
+        showGalleryPhoto(galleryIndex + (event.key === "ArrowRight" ? 1 : -1));
+      });
+
+      // 手機左右滑動換圖；垂直捲動及雙指縮放交由瀏覽器處理。
+      let galleryPointer = null;
+      $("#gallery-stage").addEventListener("pointerdown", (event) => {
+        if (event.pointerType !== "touch" || event.target.closest("button"))
+          return;
+        galleryPointer = {
+          id: event.pointerId,
+          x: event.clientX,
+          y: event.clientY,
+        };
+      });
+      $("#gallery-stage").addEventListener("pointerup", (event) => {
+        if (!galleryPointer || galleryPointer.id !== event.pointerId) return;
+        const x = event.clientX - galleryPointer.x;
+        const y = event.clientY - galleryPointer.y;
+        galleryPointer = null;
+        if (
+          Math.abs(x) > 45 &&
+          Math.abs(x) > Math.abs(y) * 1.4 &&
+          galleryPhotos.length > 1
+        ) {
+          showGalleryPhoto(galleryIndex + (x < 0 ? 1 : -1));
+        }
+      });
+      $("#gallery-stage").addEventListener("pointercancel", () => {
+        galleryPointer = null;
+      });
+      workDialog.addEventListener("close", () => {
+        galleryPointer = null;
+      });
+
+      $$(".work-button").forEach((button) =>
+        button.addEventListener("click", () => {
+          const card = button.closest(".work-card");
+          $("#work-dialog-title").textContent = $(
+            ".work-title",
+            card,
+          ).textContent;
+          $("#work-dialog-type").textContent = $(
+            ".work-type",
+            card,
+          ).textContent;
+          $("#work-dialog-description").textContent = card.dataset.description;
+          setGallery(card);
+          openDialog(workDialog);
+        }),
+      );
+
+      $("#work-inquiry").addEventListener("click", () => {
+        const message = $("#message");
+        if (!message.value.trim()) {
+          message.value = `我喜歡「${$("#work-dialog-title").textContent}」的風格，想進一步了解。`;
+          message.setCustomValidity("");
+        }
+        workDialog.close();
+      });
+
+      // 純前端：不儲存至 localStorage，也不傳送姓名、電話及需求內容。
+      const form = $("#contact-form");
+      let draftText = "";
+      ["name", "message"].forEach((id) => {
+        const field = $("#" + id);
+        field.addEventListener("input", () =>
+          field.setCustomValidity(
+            field.value.trim() ? "" : "請填寫此欄位，不能只有空白。",
+          ),
+        );
+      });
+      $("#phone").addEventListener("input", (event) => {
+        const digits = event.target.value.replace(/\D/g, "");
+        event.target.setCustomValidity(
+          digits.length >= 7 && digits.length <= 15
+            ? ""
+            : "請輸入含 7–15 位數字的聯絡電話。",
+        );
+      });
+      form.addEventListener("submit", (event) => {
+        event.preventDefault();
+        if (!form.reportValidity()) return;
+        draftText = `一大室內設計｜設計諮詢草稿\n\n姓名：${$("#name").value.trim()}\n電話：${$("#phone").value.trim()}\n\n需求說明：\n${$("#message").value.trim()}\n\n※ 此為本機建立的草稿，尚未送出。`;
+        $("#draft-content").textContent = draftText;
+        $("#copy-status").textContent = "";
+        openDialog($("#draft-dialog"));
+      });
+      $("#copy-draft").addEventListener("click", async () => {
+        try {
+          await navigator.clipboard.writeText(draftText);
+          $("#copy-status").textContent = "已複製，您可以貼到郵件或訊息中。";
+        } catch {
+          const selection = window.getSelection();
+          const range = document.createRange();
+          range.selectNodeContents($("#draft-content"));
+          selection.removeAllRanges();
+          selection.addRange(range);
+          $("#copy-status").textContent =
+            "已選取內容，請長按或使用 Ctrl/Cmd + C 複製，也可下載文字檔。";
+        }
+      });
+      $("#download-draft").addEventListener("click", () => {
+        const url = URL.createObjectURL(
+          new Blob(["\uFEFF", draftText], { type: "text/plain;charset=utf-8" }),
+        );
+        const anchor = document.createElement("a");
+        anchor.href = url;
+        anchor.download = "一大室內設計-諮詢草稿.txt";
+        document.body.append(anchor);
+        anchor.click();
+        anchor.remove();
+        setTimeout(() => URL.revokeObjectURL(url), 1000);
+        $("#copy-status").textContent = "已建立文字檔下載。";
+      });
+      // 導覽使用緩入緩出的捲動，並扣除固定導覽列高度。
+      const scrollRoot = document.documentElement;
+      let navigationFrame = 0;
+      let previousScrollBehavior = "";
+
+      function stopNavigationScroll() {
+        if (!navigationFrame) return;
+        cancelAnimationFrame(navigationFrame);
+        navigationFrame = 0;
+        scrollRoot.style.scrollBehavior = previousScrollBehavior;
+      }
+
+      function scrollToSection(target) {
+        stopNavigationScroll();
+        const start = window.scrollY;
+        const headerHeight = $(".header").getBoundingClientRect().height;
+        const maximum = Math.max(
+          0,
+          scrollRoot.scrollHeight - window.innerHeight,
+        );
+        const position =
+          target.id === "home"
+            ? 0
+            : target.getBoundingClientRect().top + start - headerHeight;
+        const destination = Math.min(maximum, Math.max(0, position));
+        const distance = destination - start;
+        previousScrollBehavior = scrollRoot.style.scrollBehavior;
+        scrollRoot.style.scrollBehavior = "auto";
+
+        if (
+          matchMedia("(prefers-reduced-motion: reduce)").matches ||
+          Math.abs(distance) < 2
+        ) {
+          window.scrollTo(0, destination);
+          scrollRoot.style.scrollBehavior = previousScrollBehavior;
+          return;
+        }
+
+        const duration = Math.min(
+          2200,
+          Math.max(1100, Math.abs(distance) * 0.3 + 1000),
+        );
+        const started = performance.now();
+        function animate(now) {
+          const progress = Math.min(1, (now - started) / duration);
+          const eased =
+            progress < 0.5
+              ? 4 * progress * progress * progress
+              : 1 - Math.pow(-2 * progress + 2, 3) / 2;
+          window.scrollTo(0, start + distance * eased);
+          if (progress < 1) {
+            navigationFrame = requestAnimationFrame(animate);
+          } else {
+            navigationFrame = 0;
+            scrollRoot.style.scrollBehavior = previousScrollBehavior;
+          }
+        }
+        navigationFrame = requestAnimationFrame(animate);
+      }
+
+      $$(
+        '.header a[href^="#"], .hero a[href^="#"], footer a[href^="#"], .about-copy a[href^="#"], #work-inquiry',
+      ).forEach((link) => {
+        link.addEventListener("click", (event) => {
+          if (
+            event.button !== 0 ||
+            event.metaKey ||
+            event.ctrlKey ||
+            event.shiftKey ||
+            event.altKey
+          )
+            return;
+          const target = document.getElementById(link.hash.slice(1));
+          if (!target) return;
+          event.preventDefault();
+          if (location.hash !== link.hash) {
+            try {
+              history.pushState(null, "", link.hash);
+            } catch {
+              /* 捲動仍可在受限預覽環境運作。 */
+            }
+          }
+          scrollToSection(target);
+        });
+      });
+
+      // 使用者操作時立即停止動畫，讓滑鼠、觸控與鍵盤接手。
+      ["wheel", "touchstart", "pointerdown"].forEach((type) => {
+        window.addEventListener(type, stopNavigationScroll, { passive: true });
+      });
+      window.addEventListener("keydown", (event) => {
+        if (
+          [
+            "ArrowUp",
+            "ArrowDown",
+            "PageUp",
+            "PageDown",
+            "Home",
+            "End",
+            "Escape",
+            " ",
+          ].includes(event.key)
+        ) {
+          stopNavigationScroll();
+        }
+      });
+      window.addEventListener("resize", stopNavigationScroll);
+
+      if ("IntersectionObserver" in window) {
+        const observer = new IntersectionObserver(
+          (entries) => {
+            const visible = entries
+              .filter((entry) => entry.isIntersecting)
+              .sort((a, b) => b.intersectionRatio - a.intersectionRatio)[0];
+            if (!visible) return;
+            $$(".desktop-nav a").forEach((link) => {
+              if (link.hash === "#" + visible.target.id)
+                link.setAttribute("aria-current", "location");
+              else link.removeAttribute("aria-current");
+            });
+          },
+          { rootMargin: "-20% 0px -45% 0px", threshold: 0 },
+        );
+        $$("main section[id]").forEach((section) => observer.observe(section));
+      }
+      $("#year").textContent = new Date().getFullYear();
+      // JavaScript 就緒後才允許提交；停用 JavaScript 時不會意外以 GET 傳出個資。
+      $("#prepare-draft").disabled = false;
+    </script>
+  </body>
+</html>
